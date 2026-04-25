@@ -112,6 +112,6 @@ Built an interactive dashboard with:
 
 ## 📌 Conclusion
 
-This project demonstrates how SQL and Power BI can be used together to analyze HR data, uncover patterns in employee attrition, and generate meaningful business insights that support better decision-making.
+* This project demonstrates how SQL and Power BI can be used together to analyze HR data, uncover patterns in employee attrition, and generate meaningful business insights that support better decision-making.
 ---
 
