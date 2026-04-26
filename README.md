@@ -1,117 +1,109 @@
-# Employee Attrition Analysis (SQL + Power BI)
+# 📊 HR Analytics Dashboard  
+### SQL + Power BI | Data Analytics Project
 
-## 📌 Project Overview
+<p align="left">
+  <img src="https://img.shields.io/badge/SQL-MySQL-blue"/>
+  <img src="https://img.shields.io/badge/PowerBI-Dashboard-yellow"/>
+  <img src="https://img.shields.io/badge/Domain-HR%20Analytics-green"/>
+</p>
 
-This project analyzes employee attrition data to identify the key factors contributing to employee turnover. The goal is to help organizations understand why employees leave and provide data-driven insights to improve retention strategies.
+---
+
+## 📌 Overview
+
+This project focuses on building a **data-driven HR analytics system** to solve the lack of structured KPIs and workforce visibility.
+
+The solution combines **SQL (data processing)** and **Power BI (visualization)** to help HR teams track employee metrics, analyze attrition trends, and support better decision-making.
 
 ---
 
 ## 🏢 Business Problem
 
-Employee attrition is a major concern for organizations because it leads to:
+The HR department lacked:
 
-* Increased hiring and training costs
-* Loss of experienced employees
-* Reduced productivity
+- No clear **KPIs for workforce tracking**
+- No visibility into **employee count and active workforce**
+- No standardized way to measure **attrition**
+- No insights into **age, gender, or education trends**
+- No dashboards to support **data-driven decisions**
 
-The company in this dataset is experiencing a noticeable number of employees leaving, but lacks clarity on the reasons behind it.
-
-> The key challenge is to identify **which employees are leaving and why**.
-
----
-
-## 🎯 Project Objective
-
-* Analyze employee data to uncover patterns in attrition
-* Identify high-risk departments, roles, and employee groups
-* Provide actionable insights to improve employee retention
+This resulted in poor workforce planning and reactive HR strategies.
 
 ---
 
-## ❓ Key Business Questions
+## 🎯 Objectives
 
-* What is the overall attrition rate?
-* Which departments have the highest turnover?
-* Which job roles are most affected by attrition?
-* Does overtime impact employee attrition?
-* Which age groups are more likely to leave?
-* How does salary vary across roles?
-
----
-
-## 🧰 Tools & Technologies
-
-* **SQL (MySQL Workbench)** – Data querying and analysis
-* **Power BI** – Dashboard creation and visualization
-* **CSV Dataset** – Source data
+- Define and implement key HR **KPIs**
+- Analyze employee data using **SQL**
+- Build an interactive **Power BI dashboard**
+- Identify patterns in **attrition and demographics**
+- Enable **data-driven HR decisions**
 
 ---
 
-## 📊 Dataset Description
+## 📊 KPIs Implemented
 
-The dataset contains **1470 employee records** with the following key attributes:
-
-* Age
-* Department
-* Job Role
-* Monthly Income
-* Overtime status
-* Job Satisfaction
-* Years at Company
-* Attrition (Yes/No)
+| KPI | Description |
+|-----|------------|
+| Total Employees | Overall workforce size |
+| Attrition Count | Employees who left |
+| Attrition Rate | Percentage of employees leaving |
+| Active Employees | Current workforce |
+| Average Age | Workforce demographic insight |
 
 ---
 
-## 🔍 Analysis Process
+## 📈 Dashboard Features
 
-### 1. SQL Analysis
+### Attrition Analysis
+- Attrition by Gender  
+- Attrition by Department  
+- Attrition by Education Field  
 
-Performed data exploration and analysis using SQL:
+### Workforce Demographics
+- Employees by Age Group  
+- Attrition by Gender across Age Groups  
 
-* Calculated overall attrition rate
-* Analyzed attrition by department and job role
-* Evaluated impact of overtime
-* Identified high-risk employee segments
-
-### 2. Power BI Dashboard
-
-Built an interactive dashboard with:
-
-* KPI cards (Total Employees, Attrition Rate, Average Income)
-* Attrition by Department
-* Attrition by Job Role
-* Attrition by Overtime
-* Attrition by Age Group
-* Interactive filters (Department, Gender, Job Role)
+### Employee Engagement
+- Job Satisfaction Ratings  
 
 ---
 
-## 📈 Key Insights
+## 🧰 Tech Stack
 
-* The overall attrition rate is **16.12%** (~1 in 6 employees leave).
-* **Research & Development** has the highest attrition among departments.
-* Roles like **Sales Executive** and **Laboratory Technician** show high turnover.
-* Employees working **overtime are more likely to leave**, indicating possible burnout.
-* Most attrition occurs among employees **under 40 years old**.
+- **SQL (MySQL)** – Data cleaning, transformation, KPI calculation  
+- **Power BI** – Dashboard and visualization  
+- **CSV Dataset** – Source data  
 
 ---
 
-## 💡 Business Recommendations
+## 🔍 Key Insights
 
-* Reduce excessive overtime to improve work-life balance
-* Improve retention strategies in high-attrition departments
-* Review compensation and growth opportunities in high-risk roles
-* Focus on employee engagement for early-career professionals
+- High attrition observed in specific departments  
+- Younger employees show higher turnover trends  
+- Gender-based differences exist in attrition patterns  
+- Certain education fields have higher attrition  
+- Lower job satisfaction correlates with higher attrition  
+
+---
+
+## 💡 Business Impact
+
+- Improved visibility into workforce metrics  
+- Identification of high-risk employee segments  
+- Support for targeted retention strategies  
+- Better decision-making using data  
 
 ---
 
 ## 📸 Dashboard Preview
-<img width="1300" height="717" alt="image" src="https://github.com/user-attachments/assets/6362dddd-e5f1-4be2-ad0d-5f375b82b200" />
+
+<img width="1322" height="741" alt="image" src="https://github.com/user-attachments/assets/8b045e0e-73dd-402e-a97f-b4b9fd8ac6a2" />
 
 ---
 
 ## 📌 Conclusion
 
-* This project demonstrates how SQL and Power BI can be used together to analyze HR data, uncover patterns in employee attrition, and generate meaningful business insights that support better decision-making.
----
+This project demonstrates how combining SQL and Power BI can transform raw HR data into actionable insights, helping organizations improve workforce planning and employee retention.
 
+---
